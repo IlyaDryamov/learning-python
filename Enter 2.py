@@ -1,0 +1,6 @@
+a = ("Australopithecus afarensis")
+b = ("Homo habilis")
+c = ("Homo erectus")
+d = ("Homo neaderthalensis")
+e = ("Homo sapiens")
+print (a, b, c, d, e, sep=' => ')
