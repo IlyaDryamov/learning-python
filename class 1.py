@@ -9,3 +9,4 @@ class Autobus(Transport):
         return f"Название автомобиля: {self.name} Скорость: {self.max_speed} Пробег: {self.mileage}"
     
 bus = Autobus("Renaul Logan", 180, 12)
+print(bus)
