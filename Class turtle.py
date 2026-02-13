@@ -34,7 +34,7 @@ class Turtle:
     def count_moves(self, x2, y2):
         '''Расчет минимального количества ходов'''
         dx = abs(x2 - self.x)
-        dy = sbs(y2 - self.y)
+        dy = abs(y2 - self.y)
         return (dx + dy + self.s -1) // self.s # округление в верх
     
 # Пример использования:
