@@ -20,3 +20,9 @@ class CashBox:
         if amount < 0:
             raise ValueError("Сумма снятия должна быть положителой")
         self.balance -= amount
+
+# Пример использоания
+# касса = CashBox()
+# касса.top_ap(5000)
+# print(касса.count_1000())
+# касса.take_away(2000)
